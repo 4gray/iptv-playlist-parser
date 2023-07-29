@@ -47,7 +47,8 @@ Parser.parse = content => {
           days: EXTINF.getAttribute('catchup-days'),
           source: EXTINF.getAttribute('catchup-source')
         },
-        timeshift: EXTINF.getAttribute('timeshift')
+        timeshift: EXTINF.getAttribute('timeshift'),
+        radio: EXTINF.getAttribute('radio')
       }
     } else if (string.startsWith('#EXTVLCOPT:')) {
       if (!items[i]) continue
