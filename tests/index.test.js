@@ -74,6 +74,15 @@ it('can parse playlist with #KODIPROP', done => {
     .catch(done)
 })
 
+it('accepts URLs with LAN hostnames (no TLD)', done => {
+  import('./__data__/expected/lan_host.js')
+    .then(({ default: expected }) => {
+      expect(parser.parse(content('tests/__data__/input/lan_host.m3u'))).toEqual(expected)
+      done()
+    })
+    .catch(done)
+})
+
 function content(filepath) {
   return fs.readFileSync(path.resolve(filepath), {
     encoding: 'utf8'

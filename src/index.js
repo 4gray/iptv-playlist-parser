@@ -67,7 +67,7 @@ Parser.parse = content => {
       const url = string.getURL()
       const user_agent = string.getParameter('user-agent')
       const referrer = string.getParameter('referer')
-      if (url && (isValidPath(url) || isValidUrl(url))) {
+      if (url && (isValidPath(url) || isValidUrl(url, { require_tld: false }))) {
         items[i].url = url
         items[i].http['user-agent'] = user_agent || items[i].http['user-agent']
         items[i].http.referrer = referrer || items[i].http.referrer
