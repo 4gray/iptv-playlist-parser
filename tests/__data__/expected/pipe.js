@@ -24,6 +24,7 @@ export default {
       raw: `#EXTINF:17 tvg-id="SportChannel",Sport channel\r\nhttp://192.54.104.122:8080/d/abcdef/video.mp4|User-Agent=Mozilla/5.0 (Windows NT 6.1; WOW64; Trident/7.0; AS; rv:11.0) like Gecko&Referer=http://180upload.abc/embed-uaqmgcckhpcl.html`,
       line: 2,
       timeshift: '',
+      radio: '',
       catchup: {
         type: '',
         source: '',
@@ -51,6 +52,7 @@ export default {
       raw: `#EXTINF:555 tvg-id="News99",News channel\r\n#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.25 Safari/537.36\r\nhttp://my-news-stream:8999/d/letsplay/video.mp4|Referer=http://test.abc/blank.html`,
       line: 4,
       timeshift: '',
+      radio: '',
       catchup: {
         type: '',
         source: '',

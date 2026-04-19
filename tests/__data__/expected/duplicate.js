@@ -27,6 +27,7 @@ export default {
       raw: `#EXTINF:-1 tvg-id="Agromais.br" user-agent="Mozilla/5.0 (iPhone; CPU iPhone OS 12_2 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Mobile/15E148" group-title="Entertainment",Agromais\r\nhttps://agromais/playlist.m3u8`,
       line: 2,
       timeshift: '',
+      radio: '',
       catchup: {
         type: '',
         source: '',
@@ -54,6 +55,7 @@ export default {
       raw: `#EXTINF:-1 tvg-id="Agromais.br" user-agent="Mozilla/5.0 (iPhone; CPU iPhone OS 12_2 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Mobile/15E148" group-title="Entertainment",Agromais\r\nhttps://agromais/playlist.m3u8`,
       line: 4,
       timeshift: '',
+      radio: '',
       catchup: {
         type: '',
         source: '',

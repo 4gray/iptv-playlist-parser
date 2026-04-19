@@ -24,6 +24,7 @@ export default {
       raw: '#EXTINF:-1,tamazight tv8\r\nhttp://cdn-hls.globecast.tv/live/ramdisk/tamazight_tv8_snrt/hls_snrt/index.m3u8',
       line: 3,
       timeshift: '',
+      radio: '',
       catchup: {
         type: '',
         source: '',
